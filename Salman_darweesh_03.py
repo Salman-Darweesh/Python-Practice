@@ -17,7 +17,7 @@ riddle_3 = "a rubber band"
 riddle_4 = "g"
 riddle_5 = "when it is ajar"
 
-    #riddles given to the user as an input
+    # riddles given to the user as an input
 rid_ans_1 = input("What can you hold in your right hand, but never in your left hand? ")
 if rid_ans_1.lower() == riddle_1:   # making it so that it would make all characters lower case
     print("Correct!")
@@ -53,7 +53,7 @@ if rid_ans_5.lower() == riddle_5:
 else:
     print("You got it wrong, L")
     
-if counter >= 3:
+if counter >= 3:    # refrenced from book, using operator to make a congrats for escaping
     print("Congratulations, you escaped the room of many riddles")
-else:
+else:   # refrenced from book, using operator to make a failed escape printstmnt
     counter < 2 == print("Unfortunately, you did not escape the room of many riddles.")
