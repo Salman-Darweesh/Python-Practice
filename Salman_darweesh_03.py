@@ -17,16 +17,16 @@ riddle_3 = "a rubber band"
 riddle_4 = "g"
 riddle_5 = "when it is ajar"
 
-    #riddles given to the user
+    #riddles given to the user as an input
 rid_ans_1 = input("What can you hold in your right hand, but never in your left hand? ")
-if rid_ans_1.lower() == riddle_1: 
+if rid_ans_1.lower() == riddle_1:   # making it so that it would make all characters lower case
     print("Correct!")
-    counter +=1 #creating a coutner to add to the original value of 0
+    counter +=1 # creating a coutner to add to the original value of 0
 else:
     print("You got it wrong, L")
 
 rid_ans_2 = input("What gets wet while drying? ")
-if rid_ans_2.lower() == riddle_2:
+if rid_ans_2.lower() == riddle_2:   # Relating a specific answer as seen above in the riddles page with the equals operator
     print("Correct!")
     counter +=1
 else:
@@ -53,11 +53,8 @@ if rid_ans_5.lower() == riddle_5:
 else:
     print("You got it wrong, L")
     
-if counter > 5 and counter < 3 == "You escaped":
+if counter < 3 and counter > 5 == "Congratulations, you escaped the room of many riddles":  # counter that congradualtes if escaped
     print(f"there were", counter, "correct answers.")
-else:
-    print("You did not make it out alive, womp womp")
+elif counter < 2:   # coutner that says you failed
+    print("Unfortunately, you did not escape the room of many riddles.")
     
-    
-    
-    #creating a coutner to add to the original value of 0
