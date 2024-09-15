@@ -53,8 +53,7 @@ if rid_ans_5.lower() == riddle_5:
 else:
     print("You got it wrong, L")
     
-if counter < 3 and counter > 5 == "Congratulations, you escaped the room of many riddles":  # counter that congradualtes if escaped
-    print(f"there were", counter, "correct answers.")
-elif counter < 2:   # coutner that says you failed
-    print("Unfortunately, you did not escape the room of many riddles.")
-    
+if counter >= 3:
+    print("Congratulations, you escaped the room of many riddles")
+else:
+    counter < 2 == print("Unfortunately, you did not escape the room of many riddles.")
