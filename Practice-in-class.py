@@ -1,3 +1,5 @@
+'''
+module 4 
 counter = 0 
 age = int(input("Enter your age: "))
 height = float(input("Enter your height in feet: "))
@@ -8,3 +10,6 @@ if age > 12 or age < 65 or choice == "awesome":
 else:
     print("You are not tall enough or old enough to ride the roller coaster.")
         # messed up the logic of it all. 
+'''
+
+        
